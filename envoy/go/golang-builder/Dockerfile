@@ -1,4 +1,4 @@
-FROM golang:1.23.4
+FROM golang:1.23.4-alpine3.19
 MAINTAINER Alex Peters <info@alexanderpeters.de>
 
 RUN apt-get update && apt-get install -y apt-transport-https ca-certificates jq curl gnupg2 software-properties-common
