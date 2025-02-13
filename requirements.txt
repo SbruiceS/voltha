@@ -29,7 +29,7 @@ netifaces==0.10.6
 pcapy==0.11.1
 pep8==1.7.1
 pep8-naming>=0.3.3
-protobuf==3.6.1
+protobuf==3.18.3
 protobuf-to-dict==0.1.0
 pyflakes==1.6.0
 pylint==1.7.6
@@ -46,7 +46,7 @@ structlog==17.2.0
 termcolor==1.1.0
 transitions==0.6.4
 treq==17.8.0
-Twisted==17.9.0
+Twisted==24.7.0rc1
 txaioetcd==0.3.0
 urllib3==1.22
 pyang==1.7.3
@@ -64,3 +64,4 @@ packaging==17.1
 pexpect==4.6.0
 python-consul==1.1.0
 afkak==2.9.0
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
